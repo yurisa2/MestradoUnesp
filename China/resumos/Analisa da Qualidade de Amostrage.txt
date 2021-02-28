@@ -1,0 +1,70 @@
+Introdução
+
+Desde os primórdios o homem teve necessidade de conhecer e retratar o ambiente em que vive. Dessa forma, sempre buscou uma maneira de conseguir inferir sobre o terreno para que, a partir de modelos terrestres, fosse possível representar parte da superfície, e assim, poder utilizar essa informação em diversas atividades. A aquisição de dados espaciais pode ser realizada a partir de vários métodos, como a execução de um levantamento topográfico, levantamento por GNSS, através de imagens orbitais, fotografias aéreas, etc.
+
+
+Modelo digital de elevação
+
+A reconstrução computacional da superfície terrestre é um processo de modelagem matemática realizado através da interpolação de um conjunto de pontos amostrados no terreno para geração de um modelo digital, com uma dada precisão de observação, densidade e distribuição, que são armazenados em uma determinada estrutura de dados .
+
+
+Filtragem
+
+Normalmente ao se realizar levantamentos com a tecnologia de varredura Laser Scanner terrestre obtém-se pontos discretos que representam o relevo na forma de um MDS ou seja, os dados possuem informações de elevações do terreno e de objetos existentes sobre ele.
+
+Amostragem
+
+Segundo Li et al. para modelar a superfície do terreno, o primeiro passo é adquirir um conjunto de dados pontuais. Para isto, duas fases devem ser realizadas, a amostragem e a medição, sendo a amostragem referente à seleção da localização, enquanto a medição estabelece a coleta dos dados em campo, determinando as coordenadas tridimensionais das localizações definidas na etapa anterior.
+
+
+Interpolação
+
+PAVÃO et al. definem «interpolação espacial como o procedimento para se estimar valores de propriedades de locais não amostrados, baseando-se em valores de dados observados em locais conhecidos».
+A interpolação espacial possui métodos que realizam a transformação de um conjunto de valores pontuais a partir de amostra de uma população, em uma superfície contínua na mesma escala dos valores da grandeza em análise .
+
+
+Interpolador IDW - Ponderação pelo Inverso da Distância
+
+O interpolador de média ponderada pelo inverso da distância , utiliza a combinação de pontos amostrais próximos , de forma ponderada e inversamente proporcional à distância do ponto amostrado com o ponto a ser interpolado .
+
+Interpolador Spline
+
+Segundo Matos , interpoladores do tipo Spline consistem em conjunto de polinômios aplicáveis individualmente a um subconjunto de observações . Este método permite a suavização da superfície, porém pode gerar picos ou depressões não existentes nos dados originais, devido a forma com que os polinômios se ajustam para gerar a superfície.
+
+Interpolador Vizinho Natural
+
+O interpolador Vizinho Natural é um estimador determinístico local, pois apenas os efeitos locais são predominantes e não são realizadas inferências estatísticas sobre a variabilidade espacial do fenômeno .
+
+
+Interpolador TIN - Rede Irregular de Triângulos
+
+Segundo Oliveira é denominada TIN uma rede triangular que corresponde a uma «estrutura topológica de dados vetoriais, no qual pontos com coordenadas planialtimétricas conhecidas são ligados por linhas formando triângulos irregulares e contíguos».
+
+Interpolador Topo To Raster
+
+O interpolador Topo To Raster foi desenvolvido por Hutchinson , na Austrália e é baseado no algoritmo ANUDEM . Este modelo foi especificamente desenvolvido para gerar um MDE hidrograficamente condicionado e obter uma melhor representação da característica anisotrópica do relevo .
+
+0Controle de Qualidade Posicional
+
+De acordo com Egg diversos usuários utilizam-se de dados espaciais para diversas finalidades, estes dados, no entanto precisam estar acessíveis e compatíveis as necessidades relacionadas a escala e qualidade dos produtos gerados para contribuírem ao propósito empregado.
+Existem vários fatores que determinam se um produto possui boa qualidade, se atende a determinadas especificações, se está dentro dos padrões exigidos; e no caso específico da representação do terreno, se o produto gerado é o mais fidedigno possível a realidade da superfície terrestre.
+
+eq: equidistância vertical entre curvas de nível.
+
+
+Metodologia
+
+O levantamento dos dados em campo foi realizado com a utilização do aparelho Laser Scanner terrestre 3D RIEGL modelo VZ-400, que possui as seguintes características: ângulo varredura horizontal de 360°; alcance de até 600m; distância mínima de 1,5m; acurácia de 5mm; precisão de 3mm e uma taxa de medição de até 122000 pontos/seg.
+Para recobrir toda a área de interesse, foi necessário estacionar o aparelho Laser Scanner em 5 posições diferentes. Em cada posição utilizou-se do receptor GNSS Javad Triumph Ntrip para obter as coordenadas geodésicas das mesmas.
+Na etapa de processamento dos dados, cada nuvem de pontos, resultante de cada posição do LST, foi registrada com as coordenadas obtidas com o receptor GNSS. Em seguida, procedeu-se a rotação das nuvens e por fim, o ajustamento das mesmas.
+
+4Resultados
+
+A seguir serão apresentados os resultados obtidos quanto ao processo de amostragem, interpolação e controle de qualidade posicional de acordo a metodologia proposta nesta pesquisa.
+A análise da qualidade dos MDE’s gerados, foi realizada a partir do cálculo da discrepância pixel a pixel entre os MDE’s de teste e o MDE referência.
+As discrepâncias são ferramentas importantes para as análises de controle de qualidade posicional, uma vez que os cálculos para classificação da acurácia posicional são realizados através dos valores das discrepâncias.
+Os gráficos relacionam o número de pontos e o respectivo RMS, em metros, para os diferentes interpoladores testados. Ainda é apresentado uma linha pontilhada referente à tolerância altimétrica EP do Decreto n° 89.817, para as classes A, B e C na equidistância vertical de 1 metro entre curvas de nível. Se a curva do interpolador estiver abaixo da linha pontilhada do EP, o RMS da respectiva amostragem atende à segunda condição para classificação da acurácia posicional vertical do Decreto n° 89.817, conforme item 2.10.
+
+5Conclusão
+
+Mediante os resultados obtidos com a análise dos métodos de amostragem e interpolação empregados nesta pesquisa para modelagem digital de terreno utilizando dados de Laser Scanner terrestre, conclui-se que para as técnicas de amostragem o melhor grid amostral é o Sistemática Hexagonal e Triangular. Suas aplicações apresentaram resultados superiores em todos os interpoladores com exceção ao interpolador Spline. Ainda sobre as técnicas de amostragem, é possível notar que a amostragem aleatória na maioria dos casos foi o pior grid amostral.

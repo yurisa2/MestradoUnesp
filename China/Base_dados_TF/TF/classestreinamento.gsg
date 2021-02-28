@@ -1,0 +1,35 @@
+# Signatures Produced by ClassSig from 
+#    Class-Grid __1000001
+#    and Stack __1000000
+
+#    Number of selected grids
+/*           3
+#    Layer-Number    Band-name
+/*           1       Band_1
+/*           2       Band_2
+/*           3       Band_3
+
+#  Type   Number of Classes   Number of Layers    Number of Parametric Layers
+    1             2                  3                         3
+# ===================================================================
+
+#  Class ID     Number of Cells    Class Name
+        1                48         1
+# Layers             1             2             3
+# Means    
+               6694,85417    7821,27083    8398,06250
+# Covariance
+    1          4724,93573    5349,57225    2380,13697
+    2          5349,57225    9387,77615    3395,70612
+    3          2380,13697    3395,70612    1681,59176
+# -------------------------------------------------------------------
+
+#  Class ID     Number of Cells    Class Name
+        2                74         2
+# Layers             1             2             3
+# Means    
+               7778,24324    8888,48649    8791,48649
+# Covariance
+    1         39327,88523   20492,59237   11188,51018
+    2         20492,59237   25643,40392    5374,29434
+    3         11188,51018    5374,29434    3883,73269

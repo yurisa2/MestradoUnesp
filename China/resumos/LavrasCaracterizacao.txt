@@ -1,0 +1,46 @@
+Introdução
+
+A água é um recurso natural de valor inestimável, sendo vital para qualquer atividade humana, além de ser estratégica para o desenvolvimento econômico. Entretanto, a intervenção humana de maneira exploratória e inconsequente alteram a sua dinâmica dentro do espaço territorial das bacias hidrográficas, especificamente nas áreas de recarga das nascentes . Neste contexto, a qualificação e a quantificação das águas dentro desses territórios servem de indicativos do grau de degradação de recursos naturais.
+
+
+Material e métodos
+
+O trabalho foi desenvolvido em duas sub-bacias hidrográficas: sub-bacia do Ribeirão Lavrinha e sub-bacia do Ribeirão Marcela , com ambientes fisiográficos distintos, inseridas na Unidade de Planejamento e Gestão de Recursos Hídricos do Alto Rio Grande do Esta- do de Minas Gerais .
+A SRL localiza-se no município de Bocaína de Minas , com área de 676 ha, predominan- temente com florestas nativas e pastagens, cujo curso d’água deságua diretamente no Rio Grande. O clima da região foi classificado em Cwb e Superúmido A, com base em metodologias de Köppen e Thorntwaite . Os Cambissolos são os solos predominantes na área , cujas características são típicas da região da
+Serra da Mantiqueira, ou seja, solos pouco a moderadamente profundos, com relevo variando de on- dulado a montanhoso . De acordo com registros da estação meteoroló- gica localizada na área, há ocorrência de precipitação média anual de 1.860 mm, temperatura média anual de 17,5 C, cujos valores máximos e mínimos diários foram de 32 e 2,7 C respectivamente, ocorrendo geadas anualmente.
+A SRM localiza-se no município de Nazareno , com área de 470 ha, predominantemente com Latossolos e agricultura tecnificada, cujo dreno principal, o Ribeirão Marcela, é afluente do Ri- beirão da Jaguara que deságua no reservatório da Usina Hidrelétrica de Camargos/Companhia Ener- gética de Minas Gerais . A região possui clima do tipo Cwa pela classificação Köppen, ca- racterizado como temperado, com verões quentes e úmidos e invernos secos . Baseado em registros da estação meteorológica localizada na área, a precipitação média anual é de
+
+
+Caracterização geral das nascentes
+
+Em termos de regime de escoamento, todas as nascentes avaliadas apresentaram-se como sendo perenes . As nascentes L1, L2, L3 e L4 foram consideradas pontuais e as demais classificadas como difusas.
+
+Caracterização morfométrica e do relevo das áreas de recarga das nascentes
+
+A Tabela 2 apresenta os resultados numéricos dos parâmetros morfométricos e das caracterís- ticas de relevo das áreas de recarga das nascentes avaliadas.
+Utilizando a interpretação de Mello e Silva , em termos de coeficiente de compacidade , todas as áreas de recarga apresentaram tendência à ocorrência de enchentes, em que espe- cificamente as áreas L2, L3, L4, M1, M2, M3, M4 e M5 apresentaram alta propensão a grandes cheias , enquanto as áreas L1 e L5 apresentaram tendência mediana . Com relação ao fator de forma , todas as áreas apresentaram tendência à ocorrência de enchentes, exceto a área relativa à nascente L1 , onde especificamente as áreas L3, L4, L5, M2, M3, M4 e M5 apresentam-se sujeitas a cheias , enquanto as áreas L2 e M1 apresentaram tendência mediana . Em se tratando de propensão à ocorrência de cheias, o coeficiente de compacidade indica que a área de recarga que possui a menor propensão trata-se da área L1 e adicionalmente a que apresenta maior propensão refere--se à área L3 .
+
+Uso e ocupação do solo das áreas de recarga
+
+As Tabelas 3 e 4 apresentam os percentuais de uso e ocupação das áreas de recarga da SRL e SRM, respectivamente.
+A nascente L2 foi a que apresentou melhores condições do ponto de vista ambiental, apre- sentando o maior percentual de mata nativa e sem intervenções diretas no ponto de afloramento d’água devido às dificuldades de acessibilidade local.
+
+Modelagem das vazões das nascentes
+
+A Tabela 5 apresenta as equações das vazões ajustadas ao modelo exponencial «Fórmula de Maillet» das nascentes das sub-bacias hidrográficas avaliadas.
+Pode-se observar que os dados tiveram alto ajuste ao modelo exponencial proposto, verificado nos valores de coeficiente de determinação .
+
+
+Rendimento específico das nascentes
+
+A Figura 3 ilustra o comportamento temporal do RE das nascentes da SRL e SRM, associados aos eventos de precipitação mensal.
+Verifica-se que existem relações importantes entre as condições de uso e ocupação do solo, característica topográfica e manejo do solo com o RE das nascentes, sendo a capacidade de produção d’água por unidade de área muito variável em conformidade com cada ambiente.
+
+Deflúvio das nascentes
+
+A Tabela 7 apresenta o deflúvio total em volume , lâmina e a vazão média diária para o período monitorado.
+Pode-se observar que para a SRL, a área de recarga relativa à nascente L4 apresentou o maior valor de deflúvio , enquanto o menor valor foi para a área relativa à nascente L3 .
+
+Conclusões
+
+Verificou-se grande variabilidade espacial e temporal das vazões das nascentes ao longo do ano de 2008.

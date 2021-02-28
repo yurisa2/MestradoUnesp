@@ -1,0 +1,96 @@
+Introduction
+
+Morphometry is the measurement and mathematical ana- lysis of the configuration of the earth’s surface, shape and dimension of its landforms . The morphometric analysis is done successfully through measurement of linear, aerial, relief, gradient of channel network and contributing ground slope of the basin .
+A widely acknowledged principle of morphometry is that drainage basin morphology reflects various geological and geomorphological processes over time, as indicated by various morphometric studies . It is well established that the influence of drainage morphometry is very significant in understanding the landform processes, soil physical prop- erties and erosional characteristics.
+The analysis of the drainage does not appear to be complete if it lacks the systematic approach towards the development of drainage basin in the area. Drainage lines of an area not only explain the existing three- dimensional geometry of the region but also help to narrate its evolutional process .
+
+Study area
+
+The Kanhar River is an important tributary of the River Son. The total geographical area of the basin is 5,654 km2. It flows through the Indian states of Chhattisgarh, Jharkhand and
+Uttar Pradesh . The Kanhar originates at Gidha- Dhodha on the Khudia plateau in Jashpur district of Chhattisgarh. It initially flows north forming the boundary with Garhwa district in Palamu division of Jharkhand. Thereafter, it flows for about 100 kilometres through Surguja district of Chhattisgarh.
+Subsequently, it runs parallel to the Son River in Gar- hwa district and turns north-west and flowing through Sonbhadra district in Mirzapur division of Uttar Pradesh.
+
+Erosion surfaces of the Kanhar basin
+
+Kanhar plain : it is the lowest area being drained by Lauwa, Kanhar, Hathinala and small tributaries of Kanhar River. The denuded hill- ocks form watersheds for the Kanhar river and its tributaries. The area may be classified as the recent most developed during tertiary orogeny.
+
+Upper Kanhar basin
+
+The Upper Kanhar basin lies in the southern part of basin covering an area of about 1,499.57 km2 .
+
+Kanhar basin
+
+%. The main tributaries of Kanhar River in this area are Sendur River, Chanan River, Kulwanti River, Rigar River, Sarsotla River, Cherra River, etc. In general, the area is flat and hilly towards western part of middle Kanhar basin and there are waterfalls of up to 30 m.
+
+Lower Kanhar basin
+
+The lower Kanhar basin lies in the northern part of the basin covering an area of about 1,476.99 km2 .
+
+Methodology
+
+Manual extraction of drainage network and assigning the stream order from a published Survey of India topographic map and from georeferenced satellite data for a large area is a time taking tedious exercise.
+
+Extraction of drainage network
+
+The drainage network of the Kanhar basin is extracted from a series of geoprocessing tools in ARC GIS-9.3 . The output of this method is a basis for creating a stream/ drainage network grid with stream order based on Strahler 1964.
+
+Results and discussion
+
+The morphometric parameters of Kanhar River basin have been calculated and the results are given in the Table 2.
+
+Aspect
+
+Aspect generally refers to the direction to which a moun- tain slope faces.
+
+Slope
+
+Slope analysis is an important parameter in geomorpho- logical studies for watershed development and important for morphometric analysis.
+
+Relative relief
+
+Relative relief is an important morphometric variable used for the assessment of morphological characteristics of any topography Gayen et al.
+
+Stream order
+
+In the present study, ranking of streams has been carried out based on the method proposed by Strahler .
+
+Stream number
+
+The count of stream channels in each order is termed as stream order. As per Horton’s law of stream num- bers, ‘‘the number of streams of different orders in a given drainage basin tends closely to approximate as inverse geometric series of which the first term is unity and the ratio is the bifurcation ratio’’.
+
+
+Stream length
+
+According to Horton , streams lengths delineate the total lengths of stream segment of each of the successive orders in a basin tend to approximate a direct geometric series in which the first term is the average length of the stream of the first order.
+
+Stream length ratio
+
+Horton’s law of stream length points out that mean stream length segments of each of the successive orders of a basin tends to approximate a direct geometric series with stream length increasing towards higher order of streams.
+
+Bifurcation ratio
+
+Horton considered Rb as an index of relief and dissection while Strahler opined that Rb shows only a small variation for different regions with different envi- ronments except where powerful geological control domi- nates.
+
+Relief ratio
+
+Schumm states that the maximum relief to hori-zontal distance along the longest dimension of the basin parallel to the principal drainage line is termed as relief ratio.
+
+Elongation ratio
+
+Elongation ratio is defined as the ratio of diameter of a circle having the same area as of the basin and maximum basin length . It is a measure of the shape of the river basin and it depends on the climatic and geo- logic types. A circular basin is more efficient in runoff discharge than an elongated basin .
+
+Stream frequency
+
+Stream frequency is the total number of stream seg- ments of all orders per unit area . Reddy et al. stated that low values of stream frequency Sf indicate presence of a permeable subsurface material and low relief.
+
+Form factor
+
+Horton stated form factor as the ratio of the area of the basin and square of the basin length.
+
+Circularity ratio
+
+Miller stated circularity ratio is the ratio of the area of the basins to the area of circle having the same cir- cumference as the perimeter of the basin.
+
+Conclusion
+
+Morphometric analysis of drainage system is prerequisite to any hydrological study. Thus, determination of stream networks’ behaviour and their interrelation with each other is of great importance in many water resources studies. Remote sensing satellite data and GIS techniques have been proved to be an effective tool in drainage delineation. Their updation in conjunction with old data- sets brings a bright picture enabling geomorphologist to infer concrete conclusion about the drainage basin. In the present paper, morphometric analysis of the Kanhar River basin, based on several drainage parameters using remote sensing satellite data and latest GIS tools for drainage analysis, has been delineated. 

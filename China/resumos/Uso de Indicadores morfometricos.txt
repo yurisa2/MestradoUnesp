@@ -1,0 +1,77 @@
+Introdução
+
+A Bacia Hidrográfica, também chamada de bacia fluvial ou bacia de drenagem, é uma compartimentação geográfica e hidrológica delimitada por divisores de água ou divisores topográficos que drena água, sedimentos e materiais dissolvidos para uma saída comum, isto é, num determinado ponto de um curso de água fluvial, também denominado de exutório da Bacia Hidrográfica .
+A Bacia Hidrográfica é uma unidade de gestão territorial importante para os estudos ambientais, pois todos os componentes pertencentes a ela como geologia, geomorfologia, cobertura vegetal, clima e rios estão integrados e interligados e, portanto, qualquer alteração nesses componentes pode impactar esse ambiente .
+Por isso que analisar o uso e a ocupação do solo, bem como as características morfométricas das bacias hidrográficas tem se mostrado uma das maneiras mais eficientes para a constatação de impactos no ambiente . Ainda, para Santos et al. , as características morfométricas das bacias hidrográficas são elementos essenciais para a avaliação do comportamento hidrológico e sua relação com a maximização ou minimização dos impactos ambientais.
+O uso de Sensoriamento Remoto e Sistemas de Informações Geográficas para mapear o uso e ocupação do solo bem como extrair informações morfométricas das bacias hidrográficas são fundamentais, pois auxiliam na interpretação do espaço geográfico e obtenção de informações espaciais .
+
+
+Caracterização da área de estudo
+
+A área de estudo, denominada Bacia Hidrográfica do Rio Una, faz parte da décima Unidade de Gerenciamento de Recursos Hídricos do Sorocaba e Médio Tietê e está localizada no interior do Estado de São Paulo a aproximadamente 75 km da capital do Estado de São Paulo, no Município de Ibiúna , conforme carta de São Roque SF-23-Y-C-V-2 do Instituto Brasileiro de Geografia e Estatística .
+
+Uso do Solo e Cobertura Vegetal da Bacia Hidrográfica do Rio Uma
+
+O mapa de uso do solo e cobertura vegetal da Bacia Hidrográfica do Rio Una foi gerado a partir da análise das imagens de satélite multiespectrais ortorretificadas do sensor SPOT 5 com resolução espacial de 2,5 metros do ano de 2010 fusionadas , cedidas pela Coordenadoria de Planejamento Ambiental da Secretaria do Meio Ambiente do Estado de São Paulo. Para o tratamento e análise dessas imagens foi utilizado o método de classificação supervisionada multivariada de Máxima Verossimilhança presente no software ArcGIS 10.1.
+Na classificação supervisionada, o analista seleciona as amostras de treinamentos que são representativas das classes a serem mapeadas, sendo que o agrupamento é feito automaticamente pelo sistema, o qual identifica as nuvens de pixels que apresentam respostas espectrais semelhantes às amostras selecionadas, no caso do classificador paramétrico MAXVER, este classifica os agrupamentos de pixels considerando a ponderação das distâncias entre as médias dos níveis digitais de classe definida na seleção .
+As classes do mapa de uso do solo e cobertura vegetal da área de estudo foram divididas em Pastagens, Matas , Lagos, Edificações Urbanas, Edificações Rurais, Campos Sujos, Agriculturas de longo período e Agricultura de curto período , de acordo com os níveis I e II presentes no Manual Técnico de Uso da Terra , com exceção das áreas com edificações urbanas que foram divididas em Edificações Urbanas e Rurais de acordo com a classificação dos setores censitários presentes no Censo Demográfico de 2010 e os Campos Sujos que foram introduzidos de acordo com o mapeamento realizado por Vaeza et al. e Detoni .
+
+Definição das Sub-Bacias Hidrográficas do Rio Uma
+
+O sistema de drenagem da Bacia Hidrográfica do Rio Una, que é constituído pelo curso d´água principal e seus tributários ou afluentes, foi extraído de cartas planialtimétricas do Instituto Geográfico Cartográfico na escala 1:10.000 e digitalizado no ArcGIS 10.1.
+Para definir o número de Sub-Bacias Hidrográficas foi identificado, primeiramente, a ordem dos cursos da água da Bacia Hidrográfica, isto é, o grau de ramificação ou bifurcação do sistema de drenagem da Bacia Hidrográfica . Para isso, foram utilizados os critérios introduzidos por Strahler , no qual para os cursos d´água sem tributários é adotada a ordem «1», ou primeira ordem, enquanto que, os cursos de água de segunda ordem originam-se da confluência de dois cursos de água de primeira ordem, podendo ter tributários também de primeira ordem; os cursos de água de terceira ordem originam-se da confluência de dois cursos de água de segunda ordem, podendo receber tributários de segunda e primeira ordens e assim sucessivamente .
+
+Determinação dos parâmetros morfométricos e de aptidão do uso do solo e cobertura vegetal do IMUS
+
+Segundo Teodoro et al. , após a delimitação das Sub-Bacias Hidrográficas é possível obter diferentes parâmetros morfométricos relacionados com a geometria e drenagem das sub-bacias hidrográficas. Alguns desses parâmetros morfométricos serão descritos a seguir e utilizados no estudo das Sub-Bacias Hidrográficas do Rio Una. Ressalta-se que todos os parâmetros morfométricos das Sub-Bacias Hidrográficas do Rio Una foram obtidos por meio de processamentos executados no ArcGIS 10.1.
+Segundo Villela e Mattos , a forma superficial de uma bacia é um importante parâmetro morfométrico, pois possibilita identificar o tempo de concentração, a partir do inicio da precipitação, necessário para que toda a água dentro dos limites da Bacia Hidrográfica chega ao exutório desta.
+
+𝐴𝑠𝑢𝑏 é a área de drenagem da sub-Bacia Hidrográfica .
+O Ic foi adaptado para ser utilizado no cálculo do IMUS, pois o valor igual a 1 representa uma situação ruim, enquanto que, o valor igual a 0 representa uma situação boa.
+
+Ic𝑎𝑑 = 1 − 𝐼𝑐
+
+O coeficiente de compacidade é a relação entre o perímetro de uma Bacia Hidrográfica e a circunferência de um círculo de área igual ao da Bacia Hidrográfica. Segundo Villela e Mattos , esse coeficiente é um número adimensional que varia com a forma da Bacia Hidrográfica e indica a susceptibilidade da mesma à enchentes, uma vez que, quanto mais próximo o valor de Kc de 1, mais circular é a Bacia Hidrográfica e, consequentemente, mais suscetível a enchentes, entretanto, quanto maior o valor de Kc, mais alongada é a Bacia Hidrográfica e menor é a susceptibilidade à enchente.
+
+A forma da Bacia Hidrográfica, bem como a forma do sistema de drenagem, pode atuar sobre alguns processos hidrológicos e também no comportamento hidrológico. Para interpretar a forma da bacia, utiliza-se o fator de forma que relaciona a forma da Bacia Hidrográfica com a de um retângulo, correspondendo à razão entre a largura média e o comprimento axial da Bacia Hidrográfica .
+
+porém com fator de forma maior.
+
+𝐴𝑠𝑢𝑏 é a área de drenagem da sub-Bacia Hidrográfica .
+Segundo Mello e Silva , as bacias hidrográficas que apresentam valor de Kf no intervalo de 0,75 a 1 apresentam alta propensão a grandes enchentes, enquanto que, bacias hidrográficas com valores abaixo de 0,50 apresentam tendência a conservação, não sujeita a enchentes. Visto isso, os valores de Kf foram escalonados e classificados segundo a Equação para que seus valores variem de 0 a 1, onde o valor 1 representa as bacias hidrográficas com tendência a conservação e 0 as bacias hidrográficas com propensão a grandes enchentes.
+
+
+Para esse estudo, o Coeficiente de
+
+Rugosidade foi determinado pela multiplicação da declividade média encontrada em cada ponto da sub-Bacia Hidrográfica, como propõe a formulação original, pelo valor numérico da densidade de drenagem, como pode ser visto pela Equação .
+
+Quanto maior for o valor do RN, maior o risco de erosão. Em função disso, Rocha e Kurtz estabeleceu quatro classes de coeficientes, conforme a Tabela 1.
+
+
+Para calcular o Índice do Coeficiente de Rugosidade Adaptado para cada sub- Bacia Hidrográfica para compor o IMUS foi considerado a relação entre as áreas em conformidades de uso e ocupação do solo com o uso potencial do solo pela área total da sub-Bacia
+
+Hidrográfica conforme a Equação .
+
+RNmenor é menor valor de RN encontrado na sub- Bacia Hidrográfica.
+Para definição dos intervalos de domínios das classes de RN’s, iniciou-se com a classe inferior, a fim de incluir o menor valor de RN, após isso, acrescenta-se o valor do intervalo de classe , definindo-se deste modo o limite superior do intervalo.
+
+Vi representa os indicadores morfométricos e de ocupação .
+Uso e Ocupação do Solo e Cobertura Vegetal da área de estudo.
+A classe de uso do solo e cobertura vegetal mais presente ao longo da Bacia Hidrográfica é de matas , que corresponde aproximadamente a 41% da área de estudo, o que indica que a Bacia Hidrográfica está bem preservada. Porém, a área ocupada por agricultura de curto período é relativamente alta e corresponde a aproximadamente 23% da área de estudo, indicando que a Bacia Hidrográfica é predominantemente rural e está sujeita a processos erosivos devido à rotatividade de culturas em expor o solo a processos erosivos de origem hídrica.
+A classe de área urbana corresponde a aproximadamente 3% da área de estudo e indica que os impactos provenientes das atividades humanas desenvolvidas em centros urbanos são relativamente baixos, uma vez que, a população urbana do município é pequena e uma parte considerável dessa área está localizada em outra Bacia Hidrográfica.
+A Tabela 3 apresentam as classes de uso do solo e cobertura vegetal presentes em cada sub- Bacia Hidrográfica em porcentagem, o que possibilita caracterizar cada sub-Bacia Hidrográfica quanto às atividades predominantes em seus limites e associar aos indicadores morfométricos da área de estudo como no caso do coeficiente de rugosidade que trata da aptidão do uso do solo.
+Ao analisar a Tabelas 3 percebe-se que as Sub-Bacias Hidrográficas 6 e 8 são as que apresentam a maior taxa de ocupação por culturas temporárias com aproximadamente 40% de suas áreas ocupadas e, provavelmente, são as mais susceptíveis a erosão. Percebe-se, também, que a Sub-Bacia Hidrográfica é a que apresenta a menor taxa de ocupação por matas , resultado das atividades antrópicas para a geração de alimentos.
+As Sub-Bacias Hidrográficas mais preservadas são a 10 e a 11 com aproximadamente 54% de seus territórios ocupados por matas, entretanto, apresentam altas taxas de ocupação por pastagens em comparação com as outras sub-bacias hidrográficas, com exceção para as Sub-Bacias Hidrográficas de número 7 e 9. Portanto, as Sub- Bacias Hidrográficas 10 e 11 são a princípio as menos propensas a processos erosivos e degradação dos recursos hídricos, pois apresentam uma boa parte de seus territórios cobertos por área florestal.
+A Bacia Hidrográfica do Rio Una apresenta o curso de água principal classificado como de quinta ordem, isto é, o Rio Una é de quinta ordem, portanto, as Sub-Bacias Hidrográficas presentes na área de estudo apresentam seus cursos de água principal classificados como de 4 ordem ou 5 ordem.
+De acordo, com a metodologia adotada foi possível identificar 11 Sub-Bacias Hidrográficas na área de estudo como pode ser visualizado na Figura 3 que apresenta, além dos limites das sub- bacias hidrográficas, a ordem de todos os cursos de água segundo a classificação proposta por Strahler .
+Os cursos de água presentes na Bacia Hidrográfica do Rio Una possuem uma extensão total 277,09 km. Como esta Bacia Hidrográfica tem uma área de aproximadamente 96,5km², calculou- se a sua Densidade de Drenagem que equivale a 2,9km/km², o que indica, segundo Beltrame , a uma Bacia Hidrográfica com alta densidade de drenagem, enquanto que, o curso de água principal tem aproximadamente 27,7km de extensão.
+
+
+A Figura 10 apresenta a distribuição dos valores do Índice de Análise Morfométrica e
+
+OcupaçãoparaasSub-Bacias Hidrográficas do Rio Una.
+Todos os valores estão acima de 0,54, porém há poucas Sub-Bacias Hidrográficas com valores acima de 0,8, isto é, com valores desejáveis. A região nordeste foi a que apresentou os menores valores, influenciada especialmente pelos valores do 𝐼𝐶𝑅𝑎𝑑 e do 𝐾𝑓𝑎𝑑 em menor intensidade.
+
+Conclusão
+
+Os valores obtidos para os indicadores morfométricos demonstram que a bacia apresenta características físicas desejáveis quanto a vulnerabilidade a processos erosivos, entretanto, o uso e ocupação do solo da Bacia Hidrográfica contrasta com a aptidão calculada na região nordeste da bacia apresentando baixos valores, o que refletiu no valor final do IMUS.

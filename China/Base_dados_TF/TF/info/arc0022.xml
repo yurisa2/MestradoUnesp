@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="pt"><Esri><CreaDate>20200708</CreaDate><CreaTime>07024300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20200708" Time="070243">CalculateField ClassBacia2019 AREA_PERCENT "( [COUNT] /5153 ) * 100
+" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20200708" Time="070330">CalculateField ClassBacia2019 AREA_HA "[AREA_PERCENT] * 463 / 100" VB #</Process></lineage></DataProperties></Esri></metadata>
